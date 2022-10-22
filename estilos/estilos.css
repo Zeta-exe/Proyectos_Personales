@@ -1,0 +1,72 @@
+
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../imgs/dragon1.jpg");
+    background-size: cover;
+    display: flex;
+
+}
+
+
+/*.imagen_background { 
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./img/dog.jpg");
+    background-size: cover;
+}*/
+
+
+.margen{
+    margin-top: 30px;
+    margin-left: 5%;
+    
+    background-color: aqua;
+    width: 30%;
+}
+.content{
+    background-color: white;
+    margin: 20px;
+    width: auto;
+    text-align: center;
+}
+
+.content .foto{
+    margin: 10px;
+    border-radius: 100%;
+    width: 80%;
+}
+
+.content .name{
+    color:#ff6600;
+    font-size: 23px;
+}
+
+.content .profesional-profile{
+    display: inline;
+}
+
+.content .profesional-profile .titulo{
+    font-size: 20px;
+}
+
+.content .profesional-profile .info{
+    height: 40%;
+    font-size: 20px;
+}
+
+a{
+    color: #1e2dff;
+    font-size: 18px;
+}
+
+li{
+    text-align: left;
+}
+
+.codigo{
+    border-radius: 0;
+
+}
